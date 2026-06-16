@@ -59,3 +59,11 @@ print(deck)
 print()
 
 print("남은 카드 수 :", len(deck))
+
+# ------------------------------
+# 시작 숫자 설정
+# ------------------------------
+current_number = 0
+
+print("게임 시작!")
+print("현재 숫자 :", current_number)
