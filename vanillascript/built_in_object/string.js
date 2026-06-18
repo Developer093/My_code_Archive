@@ -39,3 +39,15 @@
 
     const text_2 = "python is easy";
     console.log(text_2.replace('python', 'javascript'));
+
+    // 7. indexOf() >> 문자열이 처음 나타나는 위치를 알려줌
+    // How to use >> 문자열.indexOf("문자열")
+
+    const text_3 = "vanilla is funny";
+    console.log(text_3.indexOf("funny"));
+
+    // 8. lastIndexOf() >> 문자열을 뒤에서 부터 찾아서 마지막으로 발견된 위치를 반환하는 메서드
+    // How to use >> 문자열.lastIndexOf()
+
+    const text_4 = "I'm Korean";
+    console.log(text_4.lastIndexOf("K"));
